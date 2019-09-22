@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment.CallerFragment">
+
+    <!--<ProgressBar-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/pgb"-->
+        <!--style="?android:attr/progressBarStyleHorizontal"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:max="100"-->
+        <!--/>-->
+    <!--<TextView-->
+        <!--android:id="@+id/myxiazaitv"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:text="当前下载进度:                               "-->
+        <!--android:textSize="20dp" />-->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn"
+        android:text="开始下载"
+        />
+
+</LinearLayout>
